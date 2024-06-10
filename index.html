@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rani's Portfolio</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+
+  <div class="container-all">
+
+    <main class="welcome" id="home">
+      <h1>Welkom bij mijn<span>Portfolio</span></h1>
+    </main>
+
+    <section class="intro">
+      <div class="intro-left">
+        <img src="img/laptop01.png" alt="een laptop op houten tafel">
+      </div>
+      <div class="intro-middle">
+        <h2>UX/UI Designer</h2>
+        <p>Ik streef naar de perfecte website designs! <br><br>
+          Skills: Figma, HTML, CSS en React.
+        </p>
+      </div>
+      <div class="intro-right">
+        <img src="img/laptop02.png" alt="twee laptops op een tafel">
+      </div>
+    </section>
+
+    <section class="about-me" id="about">
+      <img class="about-img" src="img/Profile.jpg" alt="profielfoto">
+      <h1 class="about-title">Rani</h1>
+      <h2 class="about-subtitle">Designer & Developer</h2>
+      <div class="about-text">
+        <p>Momenteel ben ik Junior Developer met een passie voor ontwerpen en programmeren.</p>
+        <p>Mensen blij maken met een website waar ze van dromen is mijn passie.</p>
+        <p>Ik blink uit in designs maken in Figma.</p>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h1>Mijn Werk </h1>
+      <div class="portfolio-items">
+
+        <div class="portfolio-modal">
+          <button class="modal-close">
+            <g transform="translate(-15 -15)">
+            </g>
+            </svg>
+          </button>
+        </div>
+        </figure>
+
+        <figure class="portfolio-item featured">
+          <img class="portfolio-image" src="img/Portal.png" alt="portfolio item">
+          <figcaption>
+            <h2 class="portfolio-title">Huidig Project</h2>
+            <p class="portfolio-desc">Een Portal Design</p>
+            <a href="#" class="portfolio-link">Meer info</a>
+          </figcaption>
+        </figure>
+
+      </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+      <h1>Contacteer mij</h1>
+      <form action="">
+        <label class="name" class="name">Naam:
+          <input type="text" id="name">
+        </label>
+
+        <label class="email" class="email">E-mail:
+          <input type="email" id="email">
+        </label>
+
+        <label message="message" class="message">Bericht:
+          <textarea name="" id="message"></textarea>
+        </label>
+
+        <input class="button form-button" type="submit" value="SEND">
+
+      </form>
+    </section>
+
+    <footer>
+      <p>Volg me op social media</p>
+      <div class="social-icons">
+        <img class="social-icon" src="img/twitter.svg" alt="twitter">
+        <img class="social-icon" src="img/github.svg" alt="twitter">
+      </div>
+
+      <p class="copyright">2024 Rani Mortelez</p>
+    </footer>
+  </div>
+  <script src="js/modal.js"></script>
+
+</body>
+
+</html>
